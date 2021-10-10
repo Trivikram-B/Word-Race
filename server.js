@@ -6,7 +6,7 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const mongoose = require('mongoose');
 
-const dbURL = "mongodb+srv://Trivikram:Trivikram@cluster0.o7buv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const dbURL = "mongodb+srv://Trivikram1:Trivikram1@cluster0.lni2l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.set("useCreateIndex", true);
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true });
 
